@@ -1,5 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AS1105WL-T
+D 32 LEDs, BCD Interfaced LED Driver with Keyscan, SOIC-20
+K led driver i2c
+F https://ams.com/documents/20143/36005/AS1105_DS000174_1-00.pdf/33724866-0dd6-b185-0a62-572bc8457bd1
+$ENDCMP
+#
+$CMP Crystal_GND34
+D Four pin crystal, GND on pins 2 and 4
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP LED_Dual_AACC_pins
 D Dual LED, cathodes on pins 3 and 4
 K LED diode bicolor dual
