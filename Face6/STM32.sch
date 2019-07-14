@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 5
+Sheet 5 5
 Title ""
 Date ""
 Rev ""
@@ -30,7 +30,7 @@ nJTRST
 Text GLabel 1550 1450 0    50   BiDi ~ 0
 JTDI
 Text GLabel 1550 1550 0    50   BiDi ~ 0
-JSTM
+JTMS
 Text GLabel 1550 1650 0    50   BiDi ~ 0
 JTCK
 Text GLabel 1550 1850 0    50   BiDi ~ 0
@@ -174,10 +174,10 @@ Text HLabel 3650 3300 0    50   BiDi ~ 0
 SDA1
 Text HLabel 3650 3200 0    50   BiDi ~ 0
 SCL1
-Text HLabel 3650 3500 0    50   BiDi ~ 0
-RX1
 Text HLabel 3650 3400 0    50   BiDi ~ 0
-TX1
+LPRX1
+Text HLabel 3650 3500 0    50   BiDi ~ 0
+LPTX1
 $Comp
 L Device:Crystal Y1
 U 1 1 5D36315E
@@ -230,7 +230,7 @@ nJTRST
 Text GLabel 3650 2300 0    50   BiDi ~ 0
 JTDI
 Text GLabel 3650 2100 0    50   BiDi ~ 0
-JSTM
+JTMS
 Text GLabel 3650 2200 0    50   BiDi ~ 0
 JTCK
 Text GLabel 3650 2700 0    50   BiDi ~ 0
@@ -241,20 +241,8 @@ Text HLabel 4950 1200 2    50   BiDi ~ 0
 GPIO0_2
 Text HLabel 4950 1300 2    50   BiDi ~ 0
 GPIO1_2
-Text HLabel 4950 1400 2    50   BiDi ~ 0
-GPIO2_2
-Text HLabel 4950 1500 2    50   BiDi ~ 0
-GPIO3_2
-Text HLabel 4950 1600 2    50   BiDi ~ 0
-GPIO4_2
-Text HLabel 4950 1700 2    50   BiDi ~ 0
-GPIO5_2
 Text HLabel 3650 2900 0    50   BiDi ~ 0
-GPIO6_2
-Text HLabel 3650 3000 0    50   BiDi ~ 0
-GPIO7_2
-Text HLabel 3650 3100 0    50   BiDi ~ 0
-GPIO8_2
+GPIO3_2
 Connection ~ 7900 1800
 $Comp
 L power:GND #PWR0134
@@ -449,17 +437,6 @@ F 3 "~" H 9500 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:EMI_Filter_LCL FL1
-U 1 1 5D2657E6
-P 10100 3000
-F 0 "FL1" H 10100 3317 50  0000 C CNN
-F 1 "LFB182G45CGFD436" H 10100 3226 50  0000 C CNN
-F 2 "" V 10100 3000 50  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb" V 10100 3000 50  0001 C CNN
-	1    10100 3000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0140
 U 1 1 5D266B94
 P 10100 3200
@@ -475,11 +452,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 3200 10100 3200
 Connection ~ 9700 3200
-Wire Wire Line
-	10100 3100 10100 3200
 Connection ~ 10100 3200
-Wire Wire Line
-	9800 2900 9700 2900
 Wire Wire Line
 	9600 2900 9700 2900
 Connection ~ 9700 2900
@@ -515,8 +488,6 @@ Wire Wire Line
 Connection ~ 10800 2900
 Wire Wire Line
 	10800 2900 10700 2900
-Wire Wire Line
-	10500 2900 10400 2900
 Wire Wire Line
 	10800 3200 10100 3200
 $Comp
@@ -956,18 +927,11 @@ F 3 "" H 2050 2250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 2050 2250
-NoConn ~ 4950 1800
 NoConn ~ 4950 2000
 NoConn ~ 4950 2100
 NoConn ~ 4950 2300
 NoConn ~ 3650 1200
-NoConn ~ 3650 1400
-NoConn ~ 3650 1500
-NoConn ~ 3650 1900
 NoConn ~ 3650 2000
-NoConn ~ 3650 2400
-NoConn ~ 3650 2500
-NoConn ~ 3650 2600
 NoConn ~ 3650 3600
 Wire Wire Line
 	9450 1450 9800 1450
@@ -1097,4 +1061,61 @@ Wire Wire Line
 	3550 3800 3650 3800
 Wire Wire Line
 	3650 3700 3550 3700
+$Comp
+L Device:EMI_Filter_CommonMode FL1
+U 1 1 5D2A9518
+P 10150 2700
+F 0 "FL1" V 10196 2512 50  0000 R CNN
+F 1 "DEA162450BT" V 10105 2512 50  0000 R CNN
+F 2 "ody-box:DEA162450BT" H 10150 2740 50  0001 C CNN
+F 3 "~" H 10150 2740 50  0001 C CNN
+	1    10150 2700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10500 2900 10250 2900
+Wire Wire Line
+	9700 2900 10050 2900
+$Comp
+L power:GND #PWR06
+U 1 1 5D2B1A26
+P 10150 2500
+F 0 "#PWR06" H 10150 2250 50  0001 C CNN
+F 1 "GND" H 10155 2327 50  0000 C CNN
+F 2 "" H 10150 2500 50  0001 C CNN
+F 3 "" H 10150 2500 50  0001 C CNN
+	1    10150 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10250 2500 10150 2500
+Connection ~ 10150 2500
+Wire Wire Line
+	10150 2500 10050 2500
+Text HLabel 3650 1900 0    50   BiDi ~ 0
+PWM4_TM1
+Text HLabel 3650 2400 0    50   BiDi ~ 0
+GPIO_EXT0
+Text HLabel 3650 2500 0    50   BiDi ~ 0
+GPIO_EXT1
+Text HLabel 3650 2600 0    50   BiDi ~ 0
+GPIO_EXT2
+Text HLabel 4950 1400 2    50   BiDi ~ 0
+GPIO2_2
+Text HLabel 4950 1500 2    50   BiDi ~ 0
+GPIO_EXT10
+Text HLabel 4950 1600 2    50   BiDi ~ 0
+GPIO_EXT11
+Text HLabel 4950 1700 2    50   BiDi ~ 0
+GPIO_EXT12
+Text HLabel 4950 1800 2    50   BiDi ~ 0
+GPIO_EXT13
+Text HLabel 3650 1400 0    50   BiDi ~ 0
+GPIO_EXT6
+Text HLabel 3650 1500 0    50   BiDi ~ 0
+GPIO_EXT7
+Text HLabel 3650 3000 0    50   BiDi ~ 0
+TX1
+Text HLabel 3650 3100 0    50   BiDi ~ 0
+RX1
 $EndSCHEMATC

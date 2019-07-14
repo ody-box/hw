@@ -490,24 +490,12 @@ F 3 "" H 1300 1100 50  0001 C CNN
 $EndComp
 Text HLabel 1600 900  2    50   Output ~ 0
 12V
-$Comp
-L Connector:Barrel_Jack_Switch_MountingPin J2
-U 1 1 5D30C475
-P 900 1000
-F 0 "J2" H 957 1317 50  0000 C CNN
-F 1 "Barrel_Jack_Switch_MountingPin" H 957 1226 50  0000 C CNN
-F 2 "ody-box:KLDVX2020A" H 950 960 50  0001 C CNN
-F 3 "~" H 950 960 50  0001 C CNN
-	1    900  1000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1300 1100 1200 1100
 Wire Wire Line
 	1200 900  1300 900 
 Text HLabel 1800 1000 3    50   BiDi ~ 0
 Jack_Test
-NoConn ~ 900  1300
 $Comp
 L Diode:1N4007 D2
 U 1 1 5D334F14
@@ -881,228 +869,58 @@ F 3 "~" H 1400 1100 50  0001 C CNN
 	1    1200 1100
 	-1   0    0    1   
 $EndComp
-Connection ~ 1200 1100
-Connection ~ 1200 900 
 Text HLabel 1900 1000 2    50   BiDi ~ 0
 BAT-
 Wire Wire Line
 	1900 1000 1200 1000
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J3
-U 1 1 5D326D36
-P 1200 2100
-F 0 "J3" H 1250 2417 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1250 2326 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1200 2100 50  0001 C CNN
-F 3 "~" H 1200 2100 50  0001 C CNN
-	1    1200 2100
-	1    0    0    -1  
-$EndComp
 Text HLabel 1000 2000 0    50   BiDi ~ 0
-SEGA
+SEGA_0
 Text HLabel 1000 2100 0    50   BiDi ~ 0
-SEGB
+SEGB_0
 Text HLabel 1000 2200 0    50   BiDi ~ 0
-SEGC
+SEGC_0
 Text HLabel 1000 2300 0    50   BiDi ~ 0
-SEGD
+SEGD_0
 Text HLabel 1500 2300 2    50   BiDi ~ 0
-SEGE
+SEGE_0
 Text HLabel 1500 2200 2    50   BiDi ~ 0
-SEGF
+SEGF_0
 Text HLabel 1500 2100 2    50   BiDi ~ 0
-SEGG
+SEGG_0
 Text HLabel 1500 2000 2    50   BiDi ~ 0
-SEGPD
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J14
-U 1 1 5D32B7E1
-P 2500 2100
-F 0 "J14" H 2550 2417 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 2550 2326 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2500 2100 50  0001 C CNN
-F 3 "~" H 2500 2100 50  0001 C CNN
-	1    2500 2100
-	1    0    0    -1  
-$EndComp
-Text HLabel 2300 2000 0    50   BiDi ~ 0
-SEGA
-Text HLabel 2300 2100 0    50   BiDi ~ 0
-SEGB
-Text HLabel 2300 2200 0    50   BiDi ~ 0
-SEGC
-Text HLabel 2300 2300 0    50   BiDi ~ 0
-SEGD
-Text HLabel 2800 2300 2    50   BiDi ~ 0
-SEGE
-Text HLabel 2800 2200 2    50   BiDi ~ 0
-SEGF
-Text HLabel 2800 2100 2    50   BiDi ~ 0
-SEGG
-Text HLabel 2800 2000 2    50   BiDi ~ 0
-SEGPD
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J16
-U 1 1 5D32EC0F
-P 3800 2100
-F 0 "J16" H 3850 2417 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 3850 2326 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 3800 2100 50  0001 C CNN
-F 3 "~" H 3800 2100 50  0001 C CNN
-	1    3800 2100
-	1    0    0    -1  
-$EndComp
-Text HLabel 3600 2000 0    50   BiDi ~ 0
-SEGA
-Text HLabel 3600 2100 0    50   BiDi ~ 0
-SEGB
-Text HLabel 3600 2200 0    50   BiDi ~ 0
-SEGC
-Text HLabel 3600 2300 0    50   BiDi ~ 0
-SEGD
-Text HLabel 4100 2300 2    50   BiDi ~ 0
-SEGE
-Text HLabel 4100 2200 2    50   BiDi ~ 0
-SEGF
-Text HLabel 4100 2100 2    50   BiDi ~ 0
-SEGG
-Text HLabel 4100 2000 2    50   BiDi ~ 0
-SEGPD
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J18
-U 1 1 5D333401
-P 5100 2100
-F 0 "J18" H 5150 2417 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 5150 2326 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 5100 2100 50  0001 C CNN
-F 3 "~" H 5100 2100 50  0001 C CNN
-	1    5100 2100
-	1    0    0    -1  
-$EndComp
-Text HLabel 4900 2000 0    50   BiDi ~ 0
-SEGA
-Text HLabel 4900 2100 0    50   BiDi ~ 0
-SEGB
-Text HLabel 4900 2200 0    50   BiDi ~ 0
-SEGC
-Text HLabel 4900 2300 0    50   BiDi ~ 0
-SEGD
-Text HLabel 5400 2300 2    50   BiDi ~ 0
-SEGE
-Text HLabel 5400 2200 2    50   BiDi ~ 0
-SEGF
-Text HLabel 5400 2100 2    50   BiDi ~ 0
-SEGG
-Text HLabel 5400 2000 2    50   BiDi ~ 0
-SEGPD
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J6
-U 1 1 5D337772
-P 1200 2800
-F 0 "J6" H 1250 3117 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1250 3026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1200 2800 50  0001 C CNN
-F 3 "~" H 1200 2800 50  0001 C CNN
-	1    1200 2800
-	1    0    0    -1  
-$EndComp
+SEGPD_0
 Text HLabel 1000 2700 0    50   BiDi ~ 0
-DIG0
+DIG0_0
 Text HLabel 1000 2800 0    50   BiDi ~ 0
-DIG1
+DIG1_0
 Text HLabel 1000 2900 0    50   BiDi ~ 0
-DIG2
+DIG2_0
 Text HLabel 1000 3000 0    50   BiDi ~ 0
-DIG3
-Text HLabel 1500 3000 2    50   BiDi ~ 0
-DIG4
-Text HLabel 1500 2900 2    50   BiDi ~ 0
-DIG5
-Text HLabel 1500 2800 2    50   BiDi ~ 0
-DIG6
-Text HLabel 1500 2700 2    50   BiDi ~ 0
-DIG7
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J15
-U 1 1 5D33C3C1
-P 2500 2800
-F 0 "J15" H 2550 3117 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 2550 3026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2500 2800 50  0001 C CNN
-F 3 "~" H 2500 2800 50  0001 C CNN
-	1    2500 2800
-	1    0    0    -1  
-$EndComp
+DIG3_0
 Text HLabel 2300 2700 0    50   BiDi ~ 0
-DIG0
+DIG0_1
 Text HLabel 2300 2800 0    50   BiDi ~ 0
-DIG1
+DIG1_1
 Text HLabel 2300 2900 0    50   BiDi ~ 0
-DIG2
+DIG2_1
 Text HLabel 2300 3000 0    50   BiDi ~ 0
-DIG3
-Text HLabel 2800 3000 2    50   BiDi ~ 0
-DIG4
-Text HLabel 2800 2900 2    50   BiDi ~ 0
-DIG5
-Text HLabel 2800 2800 2    50   BiDi ~ 0
-DIG6
-Text HLabel 2800 2700 2    50   BiDi ~ 0
-DIG7
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J17
-U 1 1 5D33FFE1
-P 3800 2800
-F 0 "J17" H 3850 3117 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 3850 3026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 3800 2800 50  0001 C CNN
-F 3 "~" H 3800 2800 50  0001 C CNN
-	1    3800 2800
-	1    0    0    -1  
-$EndComp
+DIG3_1
 Text HLabel 3600 2700 0    50   BiDi ~ 0
-DIG0
+DIG0_2
 Text HLabel 3600 2800 0    50   BiDi ~ 0
-DIG1
+DIG1_2
 Text HLabel 3600 2900 0    50   BiDi ~ 0
-DIG2
+DIG2_2
 Text HLabel 3600 3000 0    50   BiDi ~ 0
-DIG3
-Text HLabel 4100 3000 2    50   BiDi ~ 0
-DIG4
-Text HLabel 4100 2900 2    50   BiDi ~ 0
-DIG5
-Text HLabel 4100 2800 2    50   BiDi ~ 0
-DIG6
-Text HLabel 4100 2700 2    50   BiDi ~ 0
-DIG7
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J19
-U 1 1 5D33FFF3
-P 5100 2800
-F 0 "J19" H 5150 3117 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 5150 3026 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 5100 2800 50  0001 C CNN
-F 3 "~" H 5100 2800 50  0001 C CNN
-	1    5100 2800
-	1    0    0    -1  
-$EndComp
+DIG3_2
 Text HLabel 4900 2700 0    50   BiDi ~ 0
-DIG0
+DIG0_3
 Text HLabel 4900 2800 0    50   BiDi ~ 0
-DIG1
+DIG1_3
 Text HLabel 4900 2900 0    50   BiDi ~ 0
-DIG2
+DIG2_3
 Text HLabel 4900 3000 0    50   BiDi ~ 0
-DIG3
-Text HLabel 5400 3000 2    50   BiDi ~ 0
-DIG4
-Text HLabel 5400 2900 2    50   BiDi ~ 0
-DIG5
-Text HLabel 5400 2800 2    50   BiDi ~ 0
-DIG6
-Text HLabel 5400 2700 2    50   BiDi ~ 0
-DIG7
+DIG3_3
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5D38FB74
@@ -1126,10 +944,446 @@ F 3 "~" H 1050 4500 50  0001 C CNN
 	1    850  4500
 	1    0    0    -1  
 $EndComp
-Connection ~ 1350 4400
 Wire Wire Line
 	1450 4400 1350 4400
 Text HLabel 1450 4400 2    50   BiDi ~ 0
 BAT+
 Connection ~ 850  4500
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J3
+U 1 1 5D31E34A
+P 1200 2100
+F 0 "J3" H 1250 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1250 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1200 2100 50  0001 C CNN
+F 3 "~" H 1200 2100 50  0001 C CNN
+	1    1200 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2300 2000 0    50   BiDi ~ 0
+SEGA_1
+Text HLabel 2300 2100 0    50   BiDi ~ 0
+SEGB_1
+Text HLabel 2300 2200 0    50   BiDi ~ 0
+SEGC_1
+Text HLabel 2300 2300 0    50   BiDi ~ 0
+SEGD_1
+Text HLabel 2800 2300 2    50   BiDi ~ 0
+SEGE_1
+Text HLabel 2800 2200 2    50   BiDi ~ 0
+SEGF_1
+Text HLabel 2800 2100 2    50   BiDi ~ 0
+SEGG_1
+Text HLabel 2800 2000 2    50   BiDi ~ 0
+SEGPD_1
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J14
+U 1 1 5D322402
+P 2500 2100
+F 0 "J14" H 2550 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2550 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 2500 2100 50  0001 C CNN
+F 3 "~" H 2500 2100 50  0001 C CNN
+	1    2500 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 3600 2000 0    50   BiDi ~ 0
+SEGA_2
+Text HLabel 3600 2100 0    50   BiDi ~ 0
+SEGB_2
+Text HLabel 3600 2200 0    50   BiDi ~ 0
+SEGC_2
+Text HLabel 3600 2300 0    50   BiDi ~ 0
+SEGD_2
+Text HLabel 4100 2300 2    50   BiDi ~ 0
+SEGE_2
+Text HLabel 4100 2200 2    50   BiDi ~ 0
+SEGF_2
+Text HLabel 4100 2100 2    50   BiDi ~ 0
+SEGG_2
+Text HLabel 4100 2000 2    50   BiDi ~ 0
+SEGPD_2
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J16
+U 1 1 5D326D29
+P 3800 2100
+F 0 "J16" H 3850 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3850 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 3800 2100 50  0001 C CNN
+F 3 "~" H 3800 2100 50  0001 C CNN
+	1    3800 2100
+	1    0    0    -1  
+$EndComp
+Text HLabel 4900 2000 0    50   BiDi ~ 0
+SEGA_3
+Text HLabel 4900 2100 0    50   BiDi ~ 0
+SEGB_3
+Text HLabel 4900 2200 0    50   BiDi ~ 0
+SEGC_3
+Text HLabel 4900 2300 0    50   BiDi ~ 0
+SEGD_3
+Text HLabel 5400 2300 2    50   BiDi ~ 0
+SEGE_3
+Text HLabel 5400 2200 2    50   BiDi ~ 0
+SEGF_3
+Text HLabel 5400 2100 2    50   BiDi ~ 0
+SEGG_3
+Text HLabel 5400 2000 2    50   BiDi ~ 0
+SEGPD_3
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J18
+U 1 1 5D326D3B
+P 5100 2100
+F 0 "J18" H 5150 2417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 5150 2326 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 5100 2100 50  0001 C CNN
+F 3 "~" H 5100 2100 50  0001 C CNN
+	1    5100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J6
+U 1 1 5D3356FB
+P 1200 2800
+F 0 "J6" H 1280 2792 50  0000 L CNN
+F 1 "Conn_01x04" H 1280 2701 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 1200 2800 50  0001 C CNN
+F 3 "~" H 1200 2800 50  0001 C CNN
+	1    1200 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J15
+U 1 1 5D336E31
+P 2500 2800
+F 0 "J15" H 2580 2792 50  0000 L CNN
+F 1 "Conn_01x04" H 2580 2701 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 2500 2800 50  0001 C CNN
+F 3 "~" H 2500 2800 50  0001 C CNN
+	1    2500 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J17
+U 1 1 5D3377E2
+P 3800 2800
+F 0 "J17" H 3880 2792 50  0000 L CNN
+F 1 "Conn_01x04" H 3880 2701 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 3800 2800 50  0001 C CNN
+F 3 "~" H 3800 2800 50  0001 C CNN
+	1    3800 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J19
+U 1 1 5D337FC5
+P 5100 2800
+F 0 "J19" H 5180 2792 50  0000 L CNN
+F 1 "Conn_01x04" H 5180 2701 50  0000 L CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 5100 2800 50  0001 C CNN
+F 3 "~" H 5100 2800 50  0001 C CNN
+	1    5100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack_Switch J2
+U 1 1 5D37DAF9
+P 900 1000
+F 0 "J2" H 957 1317 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 957 1226 50  0000 C CNN
+F 2 "ody-box:KLDVX2020A" H 950 960 50  0001 C CNN
+F 3 "~" H 950 960 50  0001 C CNN
+	1    900  1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 1200 900 
+Connection ~ 1200 1100
+$Comp
+L Connector:Conn_01x03_Male J20
+U 1 1 5D2E3ABA
+P 6000 1000
+F 0 "J20" H 6108 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6108 1190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6000 1000 50  0001 C CNN
+F 3 "~" H 6000 1000 50  0001 C CNN
+	1    6000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 5D2E4C79
+P 6300 900
+F 0 "#PWR011" H 6300 650 50  0001 C CNN
+F 1 "GND" V 6305 772 50  0000 R CNN
+F 2 "" H 6300 900 50  0001 C CNN
+F 3 "" H 6300 900 50  0001 C CNN
+	1    6300 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 900  6200 900 
+Wire Wire Line
+	6200 1000 6300 1000
+Wire Wire Line
+	6300 1100 6200 1100
+Text HLabel 6300 1100 2    50   BiDi ~ 0
+Interrupt0
+$Comp
+L Connector:Conn_01x03_Male J23
+U 1 1 5D2E866F
+P 6850 1000
+F 0 "J23" H 6958 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6958 1190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6850 1000 50  0001 C CNN
+F 3 "~" H 6850 1000 50  0001 C CNN
+	1    6850 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5D2E8679
+P 7150 900
+F 0 "#PWR017" H 7150 650 50  0001 C CNN
+F 1 "GND" V 7155 772 50  0000 R CNN
+F 2 "" H 7150 900 50  0001 C CNN
+F 3 "" H 7150 900 50  0001 C CNN
+	1    7150 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 900  7050 900 
+Wire Wire Line
+	7050 1000 7150 1000
+Wire Wire Line
+	7150 1100 7050 1100
+Text HLabel 7150 1100 2    50   BiDi ~ 0
+Interrupt1
+$Comp
+L Connector:Conn_01x03_Male J26
+U 1 1 5D2EC420
+P 7700 1000
+F 0 "J26" H 7808 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7808 1190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 7700 1000 50  0001 C CNN
+F 3 "~" H 7700 1000 50  0001 C CNN
+	1    7700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5D2EC42A
+P 8000 900
+F 0 "#PWR023" H 8000 650 50  0001 C CNN
+F 1 "GND" V 8005 772 50  0000 R CNN
+F 2 "" H 8000 900 50  0001 C CNN
+F 3 "" H 8000 900 50  0001 C CNN
+	1    8000 900 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 900  7900 900 
+Wire Wire Line
+	7900 1000 8000 1000
+Wire Wire Line
+	8000 1100 7900 1100
+Text HLabel 8000 1100 2    50   BiDi ~ 0
+Interrupt2
+$Comp
+L Connector:Conn_01x03_Male J21
+U 1 1 5D2EC442
+P 6000 1500
+F 0 "J21" H 6108 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6108 1690 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6000 1500 50  0001 C CNN
+F 3 "~" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5D2EC44C
+P 6300 1400
+F 0 "#PWR013" H 6300 1150 50  0001 C CNN
+F 1 "GND" V 6305 1272 50  0000 R CNN
+F 2 "" H 6300 1400 50  0001 C CNN
+F 3 "" H 6300 1400 50  0001 C CNN
+	1    6300 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 1400 6200 1400
+Wire Wire Line
+	6200 1500 6300 1500
+Wire Wire Line
+	6300 1600 6200 1600
+Text HLabel 6300 1600 2    50   BiDi ~ 0
+Interrupt3
+$Comp
+L Connector:Conn_01x03_Male J24
+U 1 1 5D2F701E
+P 6850 1500
+F 0 "J24" H 6958 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6958 1690 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6850 1500 50  0001 C CNN
+F 3 "~" H 6850 1500 50  0001 C CNN
+	1    6850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5D2F7028
+P 7150 1400
+F 0 "#PWR019" H 7150 1150 50  0001 C CNN
+F 1 "GND" V 7155 1272 50  0000 R CNN
+F 2 "" H 7150 1400 50  0001 C CNN
+F 3 "" H 7150 1400 50  0001 C CNN
+	1    7150 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1400 7050 1400
+Wire Wire Line
+	7050 1500 7150 1500
+Wire Wire Line
+	7150 1600 7050 1600
+Text HLabel 7150 1600 2    50   BiDi ~ 0
+Interrupt4
+$Comp
+L Connector:Conn_01x03_Male J27
+U 1 1 5D2F7040
+P 7700 1500
+F 0 "J27" H 7808 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7808 1690 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 7700 1500 50  0001 C CNN
+F 3 "~" H 7700 1500 50  0001 C CNN
+	1    7700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 5D2F704A
+P 8000 1400
+F 0 "#PWR025" H 8000 1150 50  0001 C CNN
+F 1 "GND" V 8005 1272 50  0000 R CNN
+F 2 "" H 8000 1400 50  0001 C CNN
+F 3 "" H 8000 1400 50  0001 C CNN
+	1    8000 1400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 1400 7900 1400
+Wire Wire Line
+	7900 1500 8000 1500
+Wire Wire Line
+	8000 1600 7900 1600
+Text HLabel 8000 1600 2    50   BiDi ~ 0
+Interrupt5
+$Comp
+L Connector:Conn_01x03_Male J22
+U 1 1 5D2FE74B
+P 6000 2000
+F 0 "J22" H 6108 2281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6108 2190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6000 2000 50  0001 C CNN
+F 3 "~" H 6000 2000 50  0001 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5D2FE755
+P 6300 1900
+F 0 "#PWR015" H 6300 1650 50  0001 C CNN
+F 1 "GND" V 6305 1772 50  0000 R CNN
+F 2 "" H 6300 1900 50  0001 C CNN
+F 3 "" H 6300 1900 50  0001 C CNN
+	1    6300 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6300 1900 6200 1900
+Wire Wire Line
+	6200 2000 6300 2000
+Wire Wire Line
+	6300 2100 6200 2100
+Text HLabel 6300 2100 2    50   BiDi ~ 0
+Interrupt6
+$Comp
+L Connector:Conn_01x03_Male J25
+U 1 1 5D2FE76D
+P 6850 2000
+F 0 "J25" H 6958 2281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 6958 2190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 6850 2000 50  0001 C CNN
+F 3 "~" H 6850 2000 50  0001 C CNN
+	1    6850 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5D2FE777
+P 7150 1900
+F 0 "#PWR021" H 7150 1650 50  0001 C CNN
+F 1 "GND" V 7155 1772 50  0000 R CNN
+F 2 "" H 7150 1900 50  0001 C CNN
+F 3 "" H 7150 1900 50  0001 C CNN
+	1    7150 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 1900 7050 1900
+Wire Wire Line
+	7050 2000 7150 2000
+Wire Wire Line
+	7150 2100 7050 2100
+Text HLabel 7150 2100 2    50   BiDi ~ 0
+Interrupt7
+$Comp
+L Connector:Conn_01x03_Male J28
+U 1 1 5D2FE78F
+P 7700 2000
+F 0 "J28" H 7808 2281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7808 2190 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 7700 2000 50  0001 C CNN
+F 3 "~" H 7700 2000 50  0001 C CNN
+	1    7700 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 5D2FE799
+P 8000 1900
+F 0 "#PWR027" H 8000 1650 50  0001 C CNN
+F 1 "GND" V 8005 1772 50  0000 R CNN
+F 2 "" H 8000 1900 50  0001 C CNN
+F 3 "" H 8000 1900 50  0001 C CNN
+	1    8000 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8000 1900 7900 1900
+Wire Wire Line
+	7900 2000 8000 2000
+Wire Wire Line
+	8000 2100 7900 2100
+Text HLabel 8000 2100 2    50   BiDi ~ 0
+Interrupt8
+Text HLabel 6300 1500 2    50   BiDi ~ 0
+3.3v
+Text HLabel 6300 2000 2    50   BiDi ~ 0
+3.3v
+Text HLabel 7150 2000 2    50   BiDi ~ 0
+3.3v
+Text HLabel 7150 1500 2    50   BiDi ~ 0
+3.3v
+Text HLabel 8000 1500 2    50   BiDi ~ 0
+3.3v
+Text HLabel 8000 2000 2    50   BiDi ~ 0
+3.3v
+Text HLabel 6300 1000 2    50   BiDi ~ 0
+3.3v
+Text HLabel 7150 1000 2    50   BiDi ~ 0
+3.3v
+Text HLabel 8000 1000 2    50   BiDi ~ 0
+3.3v
 $EndSCHEMATC

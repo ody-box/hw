@@ -1,4 +1,4 @@
-15686119319262443
+15689245093669443
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -49686,12 +49686,19 @@ D6_Switch
 4
 2
 ody-box
+DEA162450BT
+
+
+0
+4
+4
+ody-box
 KLDVX2020A
 
 
 0
-7
-4
+3
+3
 ody-box
 STM32-Antenna
 
@@ -65820,6 +65827,13 @@ jack_audio
 0
 4
 4
+synth
+KINGBRIGHT-PDC54-11GWA
+
+
+0
+18
+18
 synth
 MIDI_IN
 

@@ -14,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J1
-U 1 1 5D329292
-P 1550 950
-F 0 "J1" H 1600 1267 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1600 1176 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1550 950 50  0001 C CNN
-F 3 "~" H 1550 950 50  0001 C CNN
-	1    1550 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J2
-U 1 1 5D32ABA9
-P 1550 1450
-F 0 "J2" H 1600 1767 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1600 1676 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1550 1450 50  0001 C CNN
-F 3 "~" H 1550 1450 50  0001 C CNN
-	1    1550 1450
-	1    0    0    -1  
-$EndComp
 Text GLabel 1350 850  0    50   BiDi ~ 0
 SEGA
 Text GLabel 1350 950  0    50   BiDi ~ 0
@@ -60,14 +38,6 @@ Text GLabel 1350 1550 0    50   BiDi ~ 0
 DIG2
 Text GLabel 1350 1650 0    50   BiDi ~ 0
 DIG3
-Text GLabel 1850 1350 2    50   BiDi ~ 0
-DIG7
-Text GLabel 1850 1450 2    50   BiDi ~ 0
-DIG6
-Text GLabel 1850 1550 2    50   BiDi ~ 0
-DIG5
-Text GLabel 1850 1650 2    50   BiDi ~ 0
-DIG4
 $Comp
 L Device:LED D1
 U 1 1 5D33FAF6
@@ -120,8 +90,6 @@ Text GLabel 3100 1200 0    50   BiDi ~ 0
 SEGC
 Text GLabel 3100 1400 0    50   BiDi ~ 0
 SEGD
-Text GLabel 3400 1100 2    50   BiDi ~ 0
-DIG4
 Wire Wire Line
 	3400 800  3400 1000
 Connection ~ 3400 1000
@@ -130,4 +98,28 @@ Wire Wire Line
 Connection ~ 3400 1200
 Wire Wire Line
 	3400 1200 3400 1400
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 5D3C37DC
+P 1550 950
+F 0 "J1" H 1600 1267 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1600 1176 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1550 950 50  0001 C CNN
+F 3 "~" H 1550 950 50  0001 C CNN
+	1    1550 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J2
+U 1 1 5D3C49FB
+P 1550 1450
+F 0 "J2" H 1522 1424 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 1522 1333 50  0000 R CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 1550 1450 50  0001 C CNN
+F 3 "~" H 1550 1450 50  0001 C CNN
+	1    1550 1450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3400 1100 2    50   BiDi ~ 0
+DIG0
 $EndSCHEMATC

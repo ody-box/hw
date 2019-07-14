@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Face4-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,28 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J3
-U 1 1 5D344083
-P 1100 850
-F 0 "J3" H 1150 1167 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1150 1076 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1100 850 50  0001 C CNN
-F 3 "~" H 1100 850 50  0001 C CNN
-	1    1100 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Counter_Clockwise J4
-U 1 1 5D34500C
-P 1100 1450
-F 0 "J4" H 1150 1767 50  0000 C CNN
-F 1 "Conn_02x04_Counter_Clockwise" H 1150 1676 50  0000 C CNN
-F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1100 1450 50  0001 C CNN
-F 3 "~" H 1100 1450 50  0001 C CNN
-	1    1100 1450
-	1    0    0    -1  
-$EndComp
 Text GLabel 900  750  0    50   BiDi ~ 0
 SEGA
 Text GLabel 900  850  0    50   BiDi ~ 0
@@ -59,14 +38,6 @@ Text GLabel 900  1550 0    50   BiDi ~ 0
 DIG2
 Text GLabel 900  1650 0    50   BiDi ~ 0
 DIG3
-Text GLabel 1400 1650 2    50   BiDi ~ 0
-DIG4
-Text GLabel 1400 1550 2    50   BiDi ~ 0
-DIG5
-Text GLabel 1400 1450 2    50   BiDi ~ 0
-DIG6
-Text GLabel 1400 1350 2    50   BiDi ~ 0
-DIG7
 $Comp
 L Device:LED D1
 U 1 1 5D346D6E
@@ -166,10 +137,6 @@ F 3 "~" H 3050 2300 50  0001 C CNN
 	1    3050 2300
 	-1   0    0    1   
 $EndComp
-Text GLabel 3200 1000 2    50   BiDi ~ 0
-DIG4
-Text GLabel 3200 1900 2    50   BiDi ~ 0
-DIG5
 Wire Wire Line
 	3200 2300 3200 2100
 Connection ~ 3200 1700
@@ -183,29 +150,21 @@ Wire Wire Line
 	3200 2100 3200 1900
 Wire Wire Line
 	3200 1300 3200 1100
-Connection ~ 3200 900 
 Wire Wire Line
 	3200 900  3200 700 
-Connection ~ 3200 1100
-Wire Wire Line
-	3200 1100 3200 900 
-Text GLabel 2900 700  0    50   BiDi ~ 0
-SEGE
-Text GLabel 2900 900  0    50   BiDi ~ 0
-SEGF
-Text GLabel 2900 1100 0    50   BiDi ~ 0
-SEGG
-Text GLabel 2900 1300 0    50   BiDi ~ 0
-SEGDP
-Text GLabel 2900 1500 0    50   BiDi ~ 0
-SEGA
-Text GLabel 2900 1700 0    50   BiDi ~ 0
-SEGB
-Text GLabel 2900 1900 0    50   BiDi ~ 0
-SEGC
-Text GLabel 2900 2100 0    50   BiDi ~ 0
-SEGD
 Text GLabel 2900 2300 0    50   BiDi ~ 0
+SEGG
+Text GLabel 2900 2500 0    50   BiDi ~ 0
+SEGDP
+Text GLabel 2900 1100 0    50   BiDi ~ 0
+SEGA
+Text GLabel 2900 1300 0    50   BiDi ~ 0
+SEGB
+Text GLabel 2900 1500 0    50   BiDi ~ 0
+SEGC
+Text GLabel 2900 1700 0    50   BiDi ~ 0
+SEGD
+Text GLabel 2900 1900 0    50   BiDi ~ 0
 SEGE
 $Comp
 L Switch:SW_Push SW1
@@ -218,45 +177,6 @@ F 3 "~" H 1150 2300 50  0001 C CNN
 	1    1150 2100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1450 2750 3    50   BiDi ~ 0
-3.3V
-$Comp
-L Connector_Generic:Conn_01x02 J1
-U 1 1 5D357FE5
-P 750 3150
-F 0 "J1" H 668 2825 50  0000 C CNN
-F 1 "Conn_01x02" H 668 2916 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 750 3150 50  0001 C CNN
-F 3 "~" H 750 3150 50  0001 C CNN
-	1    750  3150
-	-1   0    0    1   
-$EndComp
-Text GLabel 950  3050 2    50   BiDi ~ 0
-3.3V
-$Comp
-L power:GND #PWR03
-U 1 1 5D35900B
-P 950 3150
-F 0 "#PWR03" H 950 2900 50  0001 C CNN
-F 1 "GND" V 955 3022 50  0000 R CNN
-F 2 "" H 950 3150 50  0001 C CNN
-F 3 "" H 950 3150 50  0001 C CNN
-	1    950  3150
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 5D359AE3
-P 1450 2500
-F 0 "R1" H 1520 2546 50  0000 L CNN
-F 1 "10k" H 1520 2455 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1380 2500 50  0001 C CNN
-F 3 "~" H 1450 2500 50  0001 C CNN
-	1    1450 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1450 2750 1450 2650
 $Comp
 L power:GND #PWR01
 U 1 1 5D35A656
@@ -294,55 +214,13 @@ F 3 "" H 850 2250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	950  2250 850  2250
-Wire Wire Line
-	1550 2900 1550 2800
-$Comp
-L Device:R R2
-U 1 1 5D35AFBF
-P 1550 2650
-F 0 "R2" H 1620 2696 50  0000 L CNN
-F 1 "10k" H 1620 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 1480 2650 50  0001 C CNN
-F 3 "~" H 1550 2650 50  0001 C CNN
-	1    1550 2650
-	1    0    0    -1  
-$EndComp
-Text GLabel 1550 2900 3    50   BiDi ~ 0
-3.3V
-Wire Wire Line
-	1450 2350 1450 2250
-Wire Wire Line
-	1450 2250 1350 2250
-Wire Wire Line
-	1350 2100 1550 2100
-Wire Wire Line
-	1550 2100 1550 2500
 Text GLabel 1650 2250 2    50   BiDi ~ 0
 GPIO0
 Text GLabel 1650 2100 2    50   BiDi ~ 0
 GPIO1
-Wire Wire Line
-	1650 2100 1550 2100
-Connection ~ 1550 2100
-Wire Wire Line
-	1650 2250 1450 2250
-Connection ~ 1450 2250
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 5D35D634
-P 750 3600
-F 0 "J2" H 668 3275 50  0000 C CNN
-F 1 "Conn_01x02" H 668 3366 50  0000 C CNN
-F 2 "Connector_Hirose:Hirose_DF13-02P-1.25DSA_1x02_P1.25mm_Vertical" H 750 3600 50  0001 C CNN
-F 3 "~" H 750 3600 50  0001 C CNN
-	1    750  3600
-	-1   0    0    1   
-$EndComp
-Text GLabel 950  3600 2    50   BiDi ~ 0
+Text GLabel 1000 3650 2    50   BiDi ~ 0
 GPIO0
-Text GLabel 950  3500 2    50   BiDi ~ 0
-GPIO1
-Text GLabel 2900 2500 0    50   BiDi ~ 0
+Text GLabel 2900 2100 0    50   BiDi ~ 0
 SEGF
 $Comp
 L Device:LED D10
@@ -358,4 +236,92 @@ $EndComp
 Wire Wire Line
 	3200 2500 3200 2300
 Connection ~ 3200 2300
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J2
+U 1 1 5D3C72D1
+P 1100 850
+F 0 "J2" H 1150 1167 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1150 1076 50  0000 C CNN
+F 2 "Connector_IDC:IDC-Header_2x04_P2.54mm_Vertical" H 1100 850 50  0001 C CNN
+F 3 "~" H 1100 850 50  0001 C CNN
+	1    1100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x04_Male J3
+U 1 1 5D3C7E60
+P 1100 1450
+F 0 "J3" H 1072 1424 50  0000 R CNN
+F 1 "Conn_01x04_Male" H 1072 1333 50  0000 R CNN
+F 2 "Connector:FanPinHeader_1x04_P2.54mm_Vertical" H 1100 1450 50  0001 C CNN
+F 3 "~" H 1100 1450 50  0001 C CNN
+	1    1100 1450
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3200 900  2    50   BiDi ~ 0
+DIG0
+Text GLabel 3200 2000 2    50   BiDi ~ 0
+DIG1
+Wire Wire Line
+	3200 1500 3200 1300
+Connection ~ 3200 1500
+Connection ~ 3200 1300
+Text GLabel 2900 700  0    50   BiDi ~ 0
+SEGA
+Text GLabel 2900 900  0    50   BiDi ~ 0
+SEGB
+$Comp
+L Connector:Conn_01x03_Male J1
+U 1 1 5D3CBB8F
+P 800 3550
+F 0 "J1" H 908 3831 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 908 3740 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 800 3550 50  0001 C CNN
+F 3 "~" H 800 3550 50  0001 C CNN
+	1    800  3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5D3CC0CE
+P 1000 3450
+F 0 "#PWR0101" H 1000 3200 50  0001 C CNN
+F 1 "GND" V 1005 3322 50  0000 R CNN
+F 2 "" H 1000 3450 50  0001 C CNN
+F 3 "" H 1000 3450 50  0001 C CNN
+	1    1000 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1650 3650 2    50   BiDi ~ 0
+GPIO1
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5D3CC5BF
+P 1450 3550
+F 0 "J4" H 1558 3831 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 1558 3740 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 1450 3550 50  0001 C CNN
+F 3 "~" H 1450 3550 50  0001 C CNN
+	1    1450 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D3CC5C9
+P 1650 3450
+F 0 "#PWR0102" H 1650 3200 50  0001 C CNN
+F 1 "GND" V 1655 3322 50  0000 R CNN
+F 2 "" H 1650 3450 50  0001 C CNN
+F 3 "" H 1650 3450 50  0001 C CNN
+	1    1650 3450
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1000 3550 2    50   BiDi ~ 0
+3.3V
+Text GLabel 1650 3550 2    50   BiDi ~ 0
+3.3V
+Wire Wire Line
+	1350 2250 1650 2250
+Wire Wire Line
+	1350 2100 1650 2100
 $EndSCHEMATC
