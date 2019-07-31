@@ -77,32 +77,6 @@ F 3 "~" H 850 1150 50  0001 C CNN
 	1    850  1150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D347047
-P 850 1400
-AR Path="/5D2720BC/5D347047" Ref="#PWR?"  Part="1" 
-AR Path="/5D272085/5D347047" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 850 1150 50  0001 C CNN
-F 1 "GND" H 855 1227 50  0000 C CNN
-F 2 "" H 850 1400 50  0001 C CNN
-F 3 "" H 850 1400 50  0001 C CNN
-	1    850  1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5D34704D
-P 3350 1400
-AR Path="/5D2720BC/5D34704D" Ref="#PWR?"  Part="1" 
-AR Path="/5D272085/5D34704D" Ref="#PWR0104"  Part="1" 
-F 0 "#PWR0104" H 3350 1150 50  0001 C CNN
-F 1 "GND" H 3355 1227 50  0000 C CNN
-F 2 "" H 3350 1400 50  0001 C CNN
-F 3 "" H 3350 1400 50  0001 C CNN
-	1    3350 1400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 1400 3350 1300
 Wire Wire Line
@@ -161,7 +135,7 @@ AR Path="/5D2720BC/5D34706F" Ref="TP?"  Part="1"
 AR Path="/5D272085/5D34706F" Ref="TP1"  Part="1" 
 F 0 "TP1" H 908 1118 50  0000 L CNN
 F 1 "TestPoint" H 908 1027 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 1000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1050 1000 50  0001 C CNN
 F 3 "~" H 1050 1000 50  0001 C CNN
 	1    850  1000
 	1    0    0    -1  
@@ -175,7 +149,7 @@ AR Path="/5D2720BC/5D347076" Ref="TP?"  Part="1"
 AR Path="/5D272085/5D347076" Ref="TP3"  Part="1" 
 F 0 "TP3" H 3408 1118 50  0000 L CNN
 F 1 "TestPoint" H 3408 1027 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3550 1000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3550 1000 50  0001 C CNN
 F 3 "~" H 3550 1000 50  0001 C CNN
 	1    3350 1000
 	1    0    0    -1  
@@ -188,10 +162,10 @@ AR Path="/5D2720BC/5D34707C" Ref="TP?"  Part="1"
 AR Path="/5D272085/5D34707C" Ref="TP2"  Part="1" 
 F 0 "TP2" V 2554 1688 50  0000 L CNN
 F 1 "TestPoint" V 2645 1688 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 2800 1500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2800 1500 50  0001 C CNN
 F 3 "~" H 2800 1500 50  0001 C CNN
 	1    2600 1500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Text HLabel 3450 1000 2    50   Output ~ 0
 BAT+
@@ -200,4 +174,8 @@ BAT-
 Wire Wire Line
 	3350 1000 2500 1000
 Connection ~ 2500 1000
+Wire Wire Line
+	3350 1400 2600 1400
+Text HLabel 850  1400 3    50   BiDi ~ 0
+BAT-
 $EndSCHEMATC

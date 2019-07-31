@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 5
+Sheet 2 4
 Title ""
 Date ""
 Rev ""
@@ -197,7 +197,7 @@ U 1 1 5D2C4043
 P 5900 5100
 F 0 "TP15" V 5854 5288 50  0000 L CNN
 F 1 "TestPoint" V 5945 5288 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6100 5100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 5100 50  0001 C CNN
 F 3 "~" H 6100 5100 50  0001 C CNN
 	1    5900 5100
 	0    1    1    0   
@@ -209,7 +209,7 @@ U 1 1 5D2C4361
 P 5900 4700
 F 0 "TP14" H 5958 4818 50  0000 L CNN
 F 1 "TestPoint" H 5958 4727 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6100 4700 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 4700 50  0001 C CNN
 F 3 "~" H 6100 4700 50  0001 C CNN
 	1    5900 4700
 	1    0    0    -1  
@@ -221,7 +221,7 @@ U 1 1 5D2C4F4E
 P 5600 5000
 F 0 "TP12" H 5542 5026 50  0000 R CNN
 F 1 "TestPoint" H 5542 5117 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 5800 5000 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5800 5000 50  0001 C CNN
 F 3 "~" H 5800 5000 50  0001 C CNN
 	1    5600 5000
 	-1   0    0    1   
@@ -233,7 +233,7 @@ U 1 1 5D2C535D
 P 3600 4400
 F 0 "TP8" H 3658 4518 50  0000 L CNN
 F 1 "TestPoint" H 3658 4427 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3800 4400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 4400 50  0001 C CNN
 F 3 "~" H 3800 4400 50  0001 C CNN
 	1    3600 4400
 	1    0    0    -1  
@@ -245,7 +245,7 @@ U 1 1 5D2C5BBE
 P 3600 4800
 F 0 "TP9" V 3795 4872 50  0000 C CNN
 F 1 "TestPoint" V 3704 4872 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3800 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 4800 50  0001 C CNN
 F 3 "~" H 3800 4800 50  0001 C CNN
 	1    3600 4800
 	0    -1   -1   0   
@@ -396,7 +396,7 @@ U 1 1 5D2D6890
 P 5900 6550
 F 0 "TP17" V 5854 6738 50  0000 L CNN
 F 1 "TestPoint" V 5945 6738 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6100 6550 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 6550 50  0001 C CNN
 F 3 "~" H 6100 6550 50  0001 C CNN
 	1    5900 6550
 	0    1    1    0   
@@ -408,7 +408,7 @@ U 1 1 5D2D689B
 P 5900 6150
 F 0 "TP16" H 5958 6268 50  0000 L CNN
 F 1 "TestPoint" H 5958 6177 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 6100 6150 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 6150 50  0001 C CNN
 F 3 "~" H 6100 6150 50  0001 C CNN
 	1    5900 6150
 	1    0    0    -1  
@@ -420,7 +420,7 @@ U 1 1 5D2D68A6
 P 5600 6450
 F 0 "TP13" H 5542 6476 50  0000 R CNN
 F 1 "TestPoint" H 5542 6567 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 5800 6450 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5800 6450 50  0001 C CNN
 F 3 "~" H 5800 6450 50  0001 C CNN
 	1    5600 6450
 	-1   0    0    1   
@@ -432,7 +432,7 @@ U 1 1 5D2D68B1
 P 3600 5850
 F 0 "TP10" H 3658 5968 50  0000 L CNN
 F 1 "TestPoint" H 3658 5877 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3800 5850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 5850 50  0001 C CNN
 F 3 "~" H 3800 5850 50  0001 C CNN
 	1    3600 5850
 	1    0    0    -1  
@@ -444,7 +444,7 @@ U 1 1 5D2D68BC
 P 3600 6250
 F 0 "TP11" V 3795 6322 50  0000 C CNN
 F 1 "TestPoint" V 3704 6322 50  0000 C CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 3800 6250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 6250 50  0001 C CNN
 F 3 "~" H 3800 6250 50  0001 C CNN
 	1    3600 6250
 	0    -1   -1   0   
@@ -480,12 +480,12 @@ Connection ~ 4600 5850
 $Comp
 L power:GND #PWR0113
 U 1 1 5D309D8A
-P 1300 1100
-F 0 "#PWR0113" H 1300 850 50  0001 C CNN
-F 1 "GND" V 1305 972 50  0000 R CNN
-F 2 "" H 1300 1100 50  0001 C CNN
-F 3 "" H 1300 1100 50  0001 C CNN
-	1    1300 1100
+P 1900 1000
+F 0 "#PWR0113" H 1900 750 50  0001 C CNN
+F 1 "GND" V 1905 872 50  0000 R CNN
+F 2 "" H 1900 1000 50  0001 C CNN
+F 3 "" H 1900 1000 50  0001 C CNN
+	1    1900 1000
 	0    -1   -1   0   
 $EndComp
 Text HLabel 1600 900  2    50   Output ~ 0
@@ -513,7 +513,7 @@ U 1 1 5D34020D
 P 850 4600
 F 0 "TP4" H 792 4626 50  0000 R CNN
 F 1 "TestPoint" H 792 4717 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 4600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1050 4600 50  0001 C CNN
 F 3 "~" H 1050 4600 50  0001 C CNN
 	1    850  4600
 	-1   0    0    1   
@@ -525,21 +525,10 @@ U 1 1 5D340C36
 P 1200 900
 F 0 "TP5" H 1142 926 50  0000 R CNN
 F 1 "TestPoint" H 1142 1017 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1400 900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1400 900 50  0001 C CNN
 F 3 "~" H 1400 900 50  0001 C CNN
 	1    1200 900 
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x03_Female J4
-U 1 1 5D402A98
-P 2500 1000
-F 0 "J4" H 2392 1285 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 2392 1194 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 1000 50  0001 C CNN
-F 3 "~" H 2500 1000 50  0001 C CNN
-	1    2500 1000
-	-1   0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0114
@@ -572,17 +561,6 @@ Wire Wire Line
 Wire Wire Line
 	2800 1100 2700 1100
 $Comp
-L Connector:Conn_01x03_Female J7
-U 1 1 5D40825E
-P 3350 1000
-F 0 "J7" H 3242 1285 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 3242 1194 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3350 1000 50  0001 C CNN
-F 3 "~" H 3350 1000 50  0001 C CNN
-	1    3350 1000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0116
 U 1 1 5D408268
 P 3650 900
@@ -612,17 +590,6 @@ Wire Wire Line
 	3550 1000 3650 1000
 Wire Wire Line
 	3650 1100 3550 1100
-$Comp
-L Connector:Conn_01x03_Female J9
-U 1 1 5D40AB4F
-P 4200 1000
-F 0 "J9" H 4092 1285 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 4092 1194 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4200 1000 50  0001 C CNN
-F 3 "~" H 4200 1000 50  0001 C CNN
-	1    4200 1000
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0118
 U 1 1 5D40AB59
@@ -654,17 +621,6 @@ Wire Wire Line
 Wire Wire Line
 	4500 1100 4400 1100
 $Comp
-L Connector:Conn_01x03_Female J11
-U 1 1 5D40AB71
-P 5050 1000
-F 0 "J11" H 4942 1285 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 4942 1194 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5050 1000 50  0001 C CNN
-F 3 "~" H 5050 1000 50  0001 C CNN
-	1    5050 1000
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0120
 U 1 1 5D40AB7B
 P 5350 900
@@ -695,17 +651,6 @@ Wire Wire Line
 Wire Wire Line
 	5350 1100 5250 1100
 $Comp
-L Connector:Conn_01x03_Female J5
-U 1 1 5D410A0B
-P 2500 1500
-F 0 "J5" H 2392 1785 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 2392 1694 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 2500 1500 50  0001 C CNN
-F 3 "~" H 2500 1500 50  0001 C CNN
-	1    2500 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0122
 U 1 1 5D410A15
 P 2800 1400
@@ -729,23 +674,6 @@ F 3 "" H 2800 1500 50  0001 C CNN
 $EndComp
 Text HLabel 2800 1600 2    50   BiDi ~ 0
 SERVO5
-Wire Wire Line
-	2800 1400 2700 1400
-Wire Wire Line
-	2700 1500 2800 1500
-Wire Wire Line
-	2800 1600 2700 1600
-$Comp
-L Connector:Conn_01x03_Female J8
-U 1 1 5D410A2D
-P 3350 1500
-F 0 "J8" H 3242 1785 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 3242 1694 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 3350 1500 50  0001 C CNN
-F 3 "~" H 3350 1500 50  0001 C CNN
-	1    3350 1500
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5D410A37
@@ -777,17 +705,6 @@ Wire Wire Line
 Wire Wire Line
 	3650 1600 3550 1600
 $Comp
-L Connector:Conn_01x03_Female J10
-U 1 1 5D410A4F
-P 4200 1500
-F 0 "J10" H 4092 1785 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 4092 1694 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4200 1500 50  0001 C CNN
-F 3 "~" H 4200 1500 50  0001 C CNN
-	1    4200 1500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0126
 U 1 1 5D410A59
 P 4500 1400
@@ -817,17 +734,6 @@ Wire Wire Line
 	4400 1500 4500 1500
 Wire Wire Line
 	4500 1600 4400 1600
-$Comp
-L Connector:Conn_01x03_Female J12
-U 1 1 5D410A71
-P 5050 1500
-F 0 "J12" H 4942 1785 50  0000 C CNN
-F 1 "Conn_01x03_Female" H 4942 1694 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5050 1500 50  0001 C CNN
-F 3 "~" H 5050 1500 50  0001 C CNN
-	1    5050 1500
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0128
 U 1 1 5D410A7B
@@ -864,12 +770,12 @@ U 1 1 5D1D9371
 P 1200 1100
 F 0 "TP6" H 1142 1126 50  0000 R CNN
 F 1 "TestPoint" H 1142 1217 50  0000 R CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1400 1100 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1400 1100 50  0001 C CNN
 F 3 "~" H 1400 1100 50  0001 C CNN
 	1    1200 1100
 	-1   0    0    1   
 $EndComp
-Text HLabel 1900 1000 2    50   BiDi ~ 0
+Text HLabel 1300 1100 2    50   BiDi ~ 0
 BAT-
 Wire Wire Line
 	1900 1000 1200 1000
@@ -922,32 +828,16 @@ DIG2_3
 Text HLabel 4900 3000 0    50   BiDi ~ 0
 DIG3_3
 $Comp
-L Switch:SW_SPDT SW1
-U 1 1 5D38FB74
-P 1150 4500
-F 0 "SW1" H 1150 4785 50  0000 C CNN
-F 1 "SW_SPDT" H 1150 4694 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 1150 4500 50  0001 C CNN
-F 3 "~" H 1150 4500 50  0001 C CNN
-	1    1150 4500
-	1    0    0    -1  
-$EndComp
-NoConn ~ 1350 4600
-$Comp
 L Connector:TestPoint TP7
 U 1 1 5D33F5B1
 P 850 4500
 F 0 "TP7" H 908 4618 50  0000 L CNN
 F 1 "TestPoint" H 908 4527 50  0000 L CNN
-F 2 "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork" H 1050 4500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1050 4500 50  0001 C CNN
 F 3 "~" H 1050 4500 50  0001 C CNN
 	1    850  4500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1450 4400 1350 4400
-Text HLabel 1450 4400 2    50   BiDi ~ 0
-BAT+
 Connection ~ 850  4500
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J3
@@ -1386,4 +1276,131 @@ Text HLabel 7150 1000 2    50   BiDi ~ 0
 3.3v
 Text HLabel 8000 1000 2    50   BiDi ~ 0
 3.3v
+NoConn ~ 1350 4600
+Wire Wire Line
+	1450 4400 1350 4400
+Text HLabel 1450 4400 2    50   BiDi ~ 0
+BAT+
+$Comp
+L Switch:SW_SPDT SW1
+U 1 1 5D38FB74
+P 1150 4500
+F 0 "SW1" H 1150 4785 50  0000 C CNN
+F 1 "SW_SPDT" H 1150 4694 50  0000 C CNN
+F 2 "Button_Switch_THT:SW_Slide_1P2T_CK_OS102011MS2Q" H 1150 4500 50  0001 C CNN
+F 3 "~" H 1150 4500 50  0001 C CNN
+	1    1150 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J4
+U 1 1 5D3087F6
+P 2500 1000
+F 0 "J4" H 2608 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2608 1190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 1000 50  0001 C CNN
+F 3 "~" H 2500 1000 50  0001 C CNN
+	1    2500 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 1600 2700 1600
+Wire Wire Line
+	2700 1500 2800 1500
+Wire Wire Line
+	2800 1400 2700 1400
+$Comp
+L Connector:Conn_01x03_Male J5
+U 1 1 5D30B256
+P 2500 1500
+F 0 "J5" H 2608 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 2608 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 1500 50  0001 C CNN
+F 3 "~" H 2500 1500 50  0001 C CNN
+	1    2500 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 5D30BADE
+P 3350 1000
+F 0 "J7" H 3458 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3458 1190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3350 1000 50  0001 C CNN
+F 3 "~" H 3350 1000 50  0001 C CNN
+	1    3350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 5D30C42C
+P 3350 1500
+F 0 "J8" H 3458 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3458 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3350 1500 50  0001 C CNN
+F 3 "~" H 3350 1500 50  0001 C CNN
+	1    3350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J9
+U 1 1 5D30CE61
+P 4200 1000
+F 0 "J9" H 4308 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4308 1190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 1000 50  0001 C CNN
+F 3 "~" H 4200 1000 50  0001 C CNN
+	1    4200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J10
+U 1 1 5D30D57E
+P 4200 1500
+F 0 "J10" H 4308 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 4308 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4200 1500 50  0001 C CNN
+F 3 "~" H 4200 1500 50  0001 C CNN
+	1    4200 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 5D30DC59
+P 5050 1000
+F 0 "J11" H 5158 1281 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5158 1190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 1000 50  0001 C CNN
+F 3 "~" H 5050 1000 50  0001 C CNN
+	1    5050 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J12
+U 1 1 5D30E1EA
+P 5050 1500
+F 0 "J12" H 5158 1781 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5158 1690 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 5050 1500 50  0001 C CNN
+F 3 "~" H 5050 1500 50  0001 C CNN
+	1    5050 1500
+	1    0    0    -1  
+$EndComp
+Text HLabel 850  3850 2    50   Input ~ 0
+12V
+Text HLabel 850  3950 2    50   BiDi ~ 0
+BAT-
+$Comp
+L Connector:Conn_01x03_Male J29
+U 1 1 5D31FBAA
+P 650 3950
+F 0 "J29" H 758 4231 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 758 4140 50  0000 C CNN
+F 2 "Connector_Hirose:Hirose_DF13-03P-1.25DSA_1x03_P1.25mm_Vertical" H 650 3950 50  0001 C CNN
+F 3 "~" H 650 3950 50  0001 C CNN
+	1    650  3950
+	1    0    0    -1  
+$EndComp
+Text HLabel 850  4050 2    50   BiDi ~ 0
+BAT+
 $EndSCHEMATC
