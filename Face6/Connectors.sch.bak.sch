@@ -36,6 +36,448 @@ INTERNAL
 Text Notes 650  600  0    50   ~ 0
 EXTERNAL
 $Comp
+L Regulator_Switching:TPS62152 U2
+U 1 1 5D2BA4CE
+P 4700 4900
+F 0 "U2" H 4700 5581 50  0000 C CNN
+F 1 "TPS62152" H 4700 5490 50  0000 C CNN
+F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm" H 4850 4450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/TPS62150.pdf" H 4700 4900 50  0001 C CNN
+	1    4700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4400 4600 4400
+Wire Wire Line
+	4600 4400 4300 4400
+Wire Wire Line
+	4300 4400 4300 4700
+Connection ~ 4600 4400
+Wire Wire Line
+	4300 4900 4300 5000
+Wire Wire Line
+	4600 5400 4700 5400
+Wire Wire Line
+	4700 5400 4800 5400
+Connection ~ 4700 5400
+$Comp
+L power:GND #PWR0105
+U 1 1 5D2BD32F
+P 4700 5400
+F 0 "#PWR0105" H 4700 5150 50  0001 C CNN
+F 1 "GND" H 4705 5227 50  0000 C CNN
+F 2 "" H 4700 5400 50  0001 C CNN
+F 3 "" H 4700 5400 50  0001 C CNN
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D2BD74E
+P 4300 5000
+F 0 "#PWR0106" H 4300 4750 50  0001 C CNN
+F 1 "GND" H 4305 4827 50  0000 C CNN
+F 2 "" H 4300 5000 50  0001 C CNN
+F 3 "" H 4300 5000 50  0001 C CNN
+	1    4300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L1
+U 1 1 5D2BDAC6
+P 5350 4700
+F 0 "L1" V 5169 4700 50  0000 C CNN
+F 1 "2.2uH" V 5260 4700 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 5350 4700 50  0001 C CNN
+F 3 "~" H 5350 4700 50  0001 C CNN
+	1    5350 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D2BEEA6
+P 5600 4850
+F 0 "R3" H 5670 4896 50  0000 L CNN
+F 1 "100k" H 5670 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 4850 50  0001 C CNN
+F 3 "~" H 5600 4850 50  0001 C CNN
+	1    5600 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4700 5500 4900
+Wire Wire Line
+	5500 4900 5100 4900
+Wire Wire Line
+	5100 4700 5200 4700
+Wire Wire Line
+	5600 4700 5500 4700
+Connection ~ 5500 4700
+Wire Wire Line
+	5100 5000 5600 5000
+Wire Wire Line
+	5100 5100 5100 5400
+Wire Wire Line
+	5100 5400 4800 5400
+Connection ~ 4800 5400
+$Comp
+L Device:C C5
+U 1 1 5D2C017F
+P 4050 4800
+F 0 "C5" V 3798 4800 50  0000 C CNN
+F 1 "3.3nF" V 3889 4800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 4650 50  0001 C CNN
+F 3 "~" H 4050 4800 50  0001 C CNN
+	1    4050 4800
+	0    1    1    0   
+$EndComp
+Connection ~ 4300 5000
+$Comp
+L Device:C C7
+U 1 1 5D2C0D6E
+P 5900 4850
+F 0 "C7" H 5785 4804 50  0000 R CNN
+F 1 "22uF" H 5785 4895 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5938 4700 50  0001 C CNN
+F 3 "~" H 5900 4850 50  0001 C CNN
+	1    5900 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5D2C1405
+P 3600 4650
+F 0 "C3" H 3485 4604 50  0000 R CNN
+F 1 "10uF" H 3485 4695 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 4500 50  0001 C CNN
+F 3 "~" H 3600 4650 50  0001 C CNN
+	1    3600 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 4800 4200 4800
+Wire Wire Line
+	3900 4800 3600 4800
+Wire Wire Line
+	3600 4500 3600 4400
+Wire Wire Line
+	3600 4400 4300 4400
+Connection ~ 4300 4400
+$Comp
+L power:GND #PWR0107
+U 1 1 5D2C2D56
+P 3600 4800
+F 0 "#PWR0107" H 3600 4550 50  0001 C CNN
+F 1 "GND" H 3605 4627 50  0000 C CNN
+F 2 "" H 3600 4800 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 4800
+Wire Wire Line
+	5900 4700 5600 4700
+Connection ~ 5600 4700
+$Comp
+L power:GND #PWR0108
+U 1 1 5D2C3404
+P 5900 5100
+F 0 "#PWR0108" H 5900 4850 50  0001 C CNN
+F 1 "GND" H 5905 4927 50  0000 C CNN
+F 2 "" H 5900 5100 50  0001 C CNN
+F 3 "" H 5900 5100 50  0001 C CNN
+	1    5900 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 5000 5900 5100
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5D2C4043
+P 5900 5100
+F 0 "TP15" V 5854 5288 50  0000 L CNN
+F 1 "TestPoint" V 5945 5288 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 5100 50  0001 C CNN
+F 3 "~" H 6100 5100 50  0001 C CNN
+	1    5900 5100
+	0    1    1    0   
+$EndComp
+Connection ~ 5900 5100
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5D2C4361
+P 5900 4700
+F 0 "TP14" H 5958 4818 50  0000 L CNN
+F 1 "TestPoint" H 5958 4727 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 4700 50  0001 C CNN
+F 3 "~" H 6100 4700 50  0001 C CNN
+	1    5900 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 4700
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5D2C4F4E
+P 5600 5000
+F 0 "TP12" H 5542 5026 50  0000 R CNN
+F 1 "TestPoint" H 5542 5117 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5800 5000 50  0001 C CNN
+F 3 "~" H 5800 5000 50  0001 C CNN
+	1    5600 5000
+	-1   0    0    1   
+$EndComp
+Connection ~ 5600 5000
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5D2C535D
+P 3600 4400
+F 0 "TP8" H 3658 4518 50  0000 L CNN
+F 1 "TestPoint" H 3658 4427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 4400 50  0001 C CNN
+F 3 "~" H 3800 4400 50  0001 C CNN
+	1    3600 4400
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 4400
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5D2C5BBE
+P 3600 4800
+F 0 "TP9" V 3795 4872 50  0000 C CNN
+F 1 "TestPoint" V 3704 4872 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 4800 50  0001 C CNN
+F 3 "~" H 3800 4800 50  0001 C CNN
+	1    3600 4800
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5900 4700 2    50   Output ~ 0
+3.3v
+Text HLabel 3500 4400 0    50   BiDi ~ 0
+BAT+
+Wire Wire Line
+	3600 4400 3500 4400
+Wire Wire Line
+	4300 5850 4300 6150
+Wire Wire Line
+	4300 6350 4300 6450
+Wire Wire Line
+	4600 6850 4700 6850
+Connection ~ 4700 6850
+$Comp
+L power:GND #PWR0109
+U 1 1 5D2D6823
+P 4700 6850
+F 0 "#PWR0109" H 4700 6600 50  0001 C CNN
+F 1 "GND" H 4705 6677 50  0000 C CNN
+F 2 "" H 4700 6850 50  0001 C CNN
+F 3 "" H 4700 6850 50  0001 C CNN
+	1    4700 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5D2D682D
+P 4300 6450
+F 0 "#PWR0110" H 4300 6200 50  0001 C CNN
+F 1 "GND" H 4305 6277 50  0000 C CNN
+F 2 "" H 4300 6450 50  0001 C CNN
+F 3 "" H 4300 6450 50  0001 C CNN
+	1    4300 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L2
+U 1 1 5D2D6837
+P 5350 6150
+F 0 "L2" V 5169 6150 50  0000 C CNN
+F 1 "2.2uH" V 5260 6150 50  0000 C CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 5350 6150 50  0001 C CNN
+F 3 "~" H 5350 6150 50  0001 C CNN
+	1    5350 6150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5D2D6841
+P 5600 6300
+F 0 "R4" H 5670 6346 50  0000 L CNN
+F 1 "100k" H 5670 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5530 6300 50  0001 C CNN
+F 3 "~" H 5600 6300 50  0001 C CNN
+	1    5600 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 6150 5500 6350
+Wire Wire Line
+	5500 6350 5100 6350
+Wire Wire Line
+	5100 6150 5200 6150
+Wire Wire Line
+	5600 6150 5500 6150
+Connection ~ 5500 6150
+Wire Wire Line
+	5100 6450 5600 6450
+Wire Wire Line
+	5100 6550 5100 6850
+$Comp
+L Device:C C6
+U 1 1 5D2D6854
+P 4050 6250
+F 0 "C6" V 3798 6250 50  0000 C CNN
+F 1 "3.3nF" V 3889 6250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4088 6100 50  0001 C CNN
+F 3 "~" H 4050 6250 50  0001 C CNN
+	1    4050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5D2D685F
+P 5900 6300
+F 0 "C8" H 5785 6254 50  0000 R CNN
+F 1 "22uF" H 5785 6345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5938 6150 50  0001 C CNN
+F 3 "~" H 5900 6300 50  0001 C CNN
+	1    5900 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 5D2D6869
+P 3600 6100
+F 0 "C4" H 3485 6054 50  0000 R CNN
+F 1 "10uF" H 3485 6145 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 5950 50  0001 C CNN
+F 3 "~" H 3600 6100 50  0001 C CNN
+	1    3600 6100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4300 6250 4200 6250
+Wire Wire Line
+	3900 6250 3600 6250
+Wire Wire Line
+	3600 5950 3600 5850
+Wire Wire Line
+	3600 5850 4300 5850
+Connection ~ 4300 5850
+$Comp
+L power:GND #PWR0111
+U 1 1 5D2D6878
+P 3600 6250
+F 0 "#PWR0111" H 3600 6000 50  0001 C CNN
+F 1 "GND" H 3605 6077 50  0000 C CNN
+F 2 "" H 3600 6250 50  0001 C CNN
+F 3 "" H 3600 6250 50  0001 C CNN
+	1    3600 6250
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 6250
+Wire Wire Line
+	5900 6150 5600 6150
+Connection ~ 5600 6150
+$Comp
+L power:GND #PWR0112
+U 1 1 5D2D6885
+P 5900 6550
+F 0 "#PWR0112" H 5900 6300 50  0001 C CNN
+F 1 "GND" H 5905 6377 50  0000 C CNN
+F 2 "" H 5900 6550 50  0001 C CNN
+F 3 "" H 5900 6550 50  0001 C CNN
+	1    5900 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 6450 5900 6550
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5D2D6890
+P 5900 6550
+F 0 "TP17" V 5854 6738 50  0000 L CNN
+F 1 "TestPoint" V 5945 6738 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 6550 50  0001 C CNN
+F 3 "~" H 6100 6550 50  0001 C CNN
+	1    5900 6550
+	0    1    1    0   
+$EndComp
+Connection ~ 5900 6550
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5D2D689B
+P 5900 6150
+F 0 "TP16" H 5958 6268 50  0000 L CNN
+F 1 "TestPoint" H 5958 6177 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6100 6150 50  0001 C CNN
+F 3 "~" H 6100 6150 50  0001 C CNN
+	1    5900 6150
+	1    0    0    -1  
+$EndComp
+Connection ~ 5900 6150
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5D2D68A6
+P 5600 6450
+F 0 "TP13" H 5542 6476 50  0000 R CNN
+F 1 "TestPoint" H 5542 6567 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5800 6450 50  0001 C CNN
+F 3 "~" H 5800 6450 50  0001 C CNN
+	1    5600 6450
+	-1   0    0    1   
+$EndComp
+Connection ~ 5600 6450
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5D2D68B1
+P 3600 5850
+F 0 "TP10" H 3658 5968 50  0000 L CNN
+F 1 "TestPoint" H 3658 5877 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 5850 50  0001 C CNN
+F 3 "~" H 3800 5850 50  0001 C CNN
+	1    3600 5850
+	1    0    0    -1  
+$EndComp
+Connection ~ 3600 5850
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5D2D68BC
+P 3600 6250
+F 0 "TP11" V 3795 6322 50  0000 C CNN
+F 1 "TestPoint" V 3704 6322 50  0000 C CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3800 6250 50  0001 C CNN
+F 3 "~" H 3800 6250 50  0001 C CNN
+	1    3600 6250
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5900 6150 2    50   Output ~ 0
+5v
+Text HLabel 3500 5850 0    50   BiDi ~ 0
+BAT+
+Wire Wire Line
+	3600 5850 3500 5850
+$Comp
+L Regulator_Switching:TPS62153 U3
+U 1 1 5D304CC4
+P 4700 6350
+F 0 "U3" H 4700 7031 50  0000 C CNN
+F 1 "TPS62153" H 4700 6940 50  0000 C CNN
+F 2 "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm" H 4850 5900 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/TPS62150.pdf" H 4700 6350 50  0001 C CNN
+	1    4700 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 5850 4600 5850
+Wire Wire Line
+	4700 6850 4800 6850
+Connection ~ 4300 6450
+Wire Wire Line
+	5100 6850 4800 6850
+Connection ~ 4800 6850
+Wire Wire Line
+	4800 5850 4600 5850
+Connection ~ 4600 5850
+$Comp
 L power:GND #PWR0113
 U 1 1 5D309D8A
 P 1900 1000
@@ -961,238 +1403,4 @@ F 3 "~" H 650 3950 50  0001 C CNN
 $EndComp
 Text HLabel 850  4050 2    50   BiDi ~ 0
 BAT+
-$Comp
-L Regulator_Linear:L7805 U2
-U 1 1 5D789758
-P 4900 4450
-F 0 "U2" H 4900 4692 50  0000 C CNN
-F 1 "L7805" H 4900 4601 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4925 4300 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4900 4400 50  0001 C CNN
-	1    4900 4450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C2
-U 1 1 5D789FD0
-P 4500 4600
-F 0 "C2" H 4385 4554 50  0000 R CNN
-F 1 "0.33uF" H 4385 4645 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 4450 50  0001 C CNN
-F 3 "~" H 4500 4600 50  0001 C CNN
-	1    4500 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C5
-U 1 1 5D78A523
-P 5300 4600
-F 0 "C5" H 5185 4554 50  0000 R CNN
-F 1 "0.1uF" H 5185 4645 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5338 4450 50  0001 C CNN
-F 3 "~" H 5300 4600 50  0001 C CNN
-	1    5300 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4900 4750 5300 4750
-Wire Wire Line
-	5300 4450 5200 4450
-Wire Wire Line
-	4600 4450 4500 4450
-Wire Wire Line
-	4500 4750 4900 4750
-Connection ~ 4900 4750
-$Comp
-L Connector:TestPoint TP3
-U 1 1 5D79B12E
-P 5300 4450
-F 0 "TP3" H 5358 4568 50  0000 L CNN
-F 1 "TestPoint" H 5358 4477 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5500 4450 50  0001 C CNN
-F 3 "~" H 5500 4450 50  0001 C CNN
-	1    5300 4450
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 4450
-Text HLabel 5400 4450 2    50   Output ~ 0
-5v_Pow
-Wire Wire Line
-	5400 4450 5300 4450
-Text HLabel 4400 4450 0    50   BiDi ~ 0
-BAT+
-Wire Wire Line
-	4500 4450 4400 4450
-Connection ~ 4500 4450
-$Comp
-L Regulator_Linear:L7805 U3
-U 1 1 5D7AA734
-P 4900 5200
-F 0 "U3" H 4900 5442 50  0000 C CNN
-F 1 "L7805" H 4900 5351 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4925 5050 50  0001 L CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf" H 4900 5150 50  0001 C CNN
-	1    4900 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C3
-U 1 1 5D7AA73E
-P 4500 5350
-F 0 "C3" H 4385 5304 50  0000 R CNN
-F 1 "0.33uF" H 4385 5395 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 5200 50  0001 C CNN
-F 3 "~" H 4500 5350 50  0001 C CNN
-	1    4500 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 5D7AA748
-P 5300 5350
-F 0 "C6" H 5185 5304 50  0000 R CNN
-F 1 "0.1uF" H 5185 5395 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5338 5200 50  0001 C CNN
-F 3 "~" H 5300 5350 50  0001 C CNN
-	1    5300 5350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4900 5500 5300 5500
-Wire Wire Line
-	5300 5200 5200 5200
-Wire Wire Line
-	4600 5200 4500 5200
-Wire Wire Line
-	4500 5500 4900 5500
-Connection ~ 4900 5500
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5D7AA757
-P 5300 5200
-F 0 "TP8" H 5358 5318 50  0000 L CNN
-F 1 "TestPoint" H 5358 5227 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5500 5200 50  0001 C CNN
-F 3 "~" H 5500 5200 50  0001 C CNN
-	1    5300 5200
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 5200
-Text HLabel 5400 5200 2    50   Output ~ 0
-5v
-Wire Wire Line
-	5400 5200 5300 5200
-Text HLabel 4400 5200 0    50   BiDi ~ 0
-BAT+
-Wire Wire Line
-	4500 5200 4400 5200
-Connection ~ 4500 5200
-$Comp
-L Regulator_Linear:LD1117S33TR_SOT223 U1
-U 1 1 5D7B821F
-P 4900 3700
-F 0 "U1" H 4900 3942 50  0000 C CNN
-F 1 "LD1117S33TR_SOT223" H 4900 3851 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 4900 3900 50  0001 C CNN
-F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00000544.pdf" H 5000 3450 50  0001 C CNN
-	1    4900 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C1
-U 1 1 5D7B9A33
-P 4500 3850
-F 0 "C1" H 4385 3804 50  0000 R CNN
-F 1 "0.1uF" H 4385 3895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4538 3700 50  0001 C CNN
-F 3 "~" H 4500 3850 50  0001 C CNN
-	1    4500 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5D7B9FB4
-P 5300 3850
-F 0 "C4" H 5185 3804 50  0000 R CNN
-F 1 "10uF" H 5185 3895 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5338 3700 50  0001 C CNN
-F 3 "~" H 5300 3850 50  0001 C CNN
-	1    5300 3850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5300 3700 5200 3700
-Wire Wire Line
-	4600 3700 4500 3700
-Wire Wire Line
-	4500 4000 4900 4000
-Wire Wire Line
-	5300 4000 4900 4000
-Connection ~ 4900 4000
-$Comp
-L Connector:TestPoint TP2
-U 1 1 5D7CAF64
-P 5300 3700
-F 0 "TP2" H 5358 3818 50  0000 L CNN
-F 1 "TestPoint" H 5358 3727 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5500 3700 50  0001 C CNN
-F 3 "~" H 5500 3700 50  0001 C CNN
-	1    5300 3700
-	1    0    0    -1  
-$EndComp
-Connection ~ 5300 3700
-Text HLabel 5400 3700 2    50   Output ~ 0
-3.3v
-Text HLabel 4400 3700 0    50   BiDi ~ 0
-BAT+
-Wire Wire Line
-	4500 3700 4400 3700
-Connection ~ 4500 3700
-Wire Wire Line
-	5300 3700 5400 3700
-$Comp
-L power:GND #PWR014
-U 1 1 5D7D3F4C
-P 4900 4000
-F 0 "#PWR014" H 4900 3750 50  0001 C CNN
-F 1 "GND" H 4905 3827 50  0000 C CNN
-F 2 "" H 4900 4000 50  0001 C CNN
-F 3 "" H 4900 4000 50  0001 C CNN
-	1    4900 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
-U 1 1 5D7D433D
-P 4900 4750
-F 0 "#PWR016" H 4900 4500 50  0001 C CNN
-F 1 "GND" H 4905 4577 50  0000 C CNN
-F 2 "" H 4900 4750 50  0001 C CNN
-F 3 "" H 4900 4750 50  0001 C CNN
-	1    4900 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 5D7D4772
-P 4900 5500
-F 0 "#PWR018" H 4900 5250 50  0001 C CNN
-F 1 "GND" H 4905 5327 50  0000 C CNN
-F 2 "" H 4900 5500 50  0001 C CNN
-F 3 "" H 4900 5500 50  0001 C CNN
-	1    4900 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP1
-U 1 1 5D7D516F
-P 1350 4400
-F 0 "TP1" H 1408 4518 50  0000 L CNN
-F 1 "TestPoint" H 1408 4427 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1550 4400 50  0001 C CNN
-F 3 "~" H 1550 4400 50  0001 C CNN
-	1    1350 4400
-	1    0    0    -1  
-$EndComp
-Connection ~ 1350 4400
 $EndSCHEMATC
